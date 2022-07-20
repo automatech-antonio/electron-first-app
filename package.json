@@ -2,12 +2,18 @@
   "name": "electron-first-app",
   "version": "1.0.0",
   "description": "My first app with electron framework",
-  "main": "main.js",
+  "main": "src/main.js",
   "repository": "git@github.com:automatech-antonio/electron-first-app.git",
   "author": "<antonio.centeno@automatech.com.br>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start": "tsc && electron ."
+  },
   "devDependencies": {
-    "electron": "^19.0.8"
+    "@types/node": "^18.0.6",
+    "electron": "^19.0.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
   }
 }
