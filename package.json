@@ -1,0 +1,13 @@
+{
+  "name": "electron-first-app",
+  "version": "1.0.0",
+  "description": "My first app with electron framework",
+  "main": "main.js",
+  "repository": "git@github.com:automatech-antonio/electron-first-app.git",
+  "author": "<antonio.centeno@automatech.com.br>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "electron": "^19.0.8"
+  }
+}
